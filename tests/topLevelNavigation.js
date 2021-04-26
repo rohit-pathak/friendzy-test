@@ -1,5 +1,5 @@
 module.exports = {
-  "Navigative to /home and visualize": function (browser) {
+  "Navigative to /home and /visualize": function (browser) {
     browser
       .url("http://localhost:4200/home")
       .waitForElementVisible("body")
